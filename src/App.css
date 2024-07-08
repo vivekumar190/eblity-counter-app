@@ -1,5 +1,8 @@
 .App {
+  display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +38,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.counterabc {
+  width: 80%;
+  background-color: beige;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.counterc {
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+.counerab {
+  align-self: center;
+  width: fit-content;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.countera {
+  background-color: rgb(161, 52, 52);
+  padding: 20px;
+}
+.counterb {
+  padding: 20px;
+  background-color: rgb(235, 146, 29);
+}
+button {
+  padding: 8px;
+  margin: 4px;
 }
