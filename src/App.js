@@ -5,8 +5,6 @@ import Counterab from "./components/Counterab.js";
 function App() {
   const [CounterC, setCounterC] = useState(0);
   const [CounterABC, setCounterABC] = useState(0);
-  console.log("COUNTERC ", CounterC, "COUNTERABC", CounterABC);
-
   const counterCClick = () => {
     setCounterC(CounterC + 100);
     setCounterABC(CounterABC + 100);
